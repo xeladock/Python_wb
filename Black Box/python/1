@@ -1,0 +1,12 @@
+a=[
+    [0, 5, 7],
+    [2,4],
+    [4,7,[4,5,7,8],4,5]
+]
+print(len(a))
+print(a[2][3]) #третий элемент второго элемиента
+print(a[2][2]) #второй элемент второго элемента
+print(a[2][2][1]) #first element inside second element inside second element
+b=['hi','my','world']
+print(b[2][0]) #first letter in third word
+print(b[2][1]) #last letter in third word

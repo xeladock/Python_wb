@@ -1,0 +1,12 @@
+t=int(input())
+h=int(input())
+m=int(input())
+all=h*60+m+t
+allm=all//60
+allh=all%60
+print(allm)
+print(allh)
+
+# m=int(input())
+
+
